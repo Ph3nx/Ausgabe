@@ -22,13 +22,13 @@
 		6C5C1401150224C500910D3E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6C5C1403150224C500910D3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6C5C1405150224C500910D3E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6C5C1409150224C500910D3E /* Ausgabe-Info.plist */ = {isa = PBXFileReference; path = "Ausgabe-Info.plist"; sourceTree = "<group>"; };
+		6C5C1409150224C500910D3E /* Ausgabe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ausgabe-Info.plist"; sourceTree = "<group>"; };
 		6C5C140B150224C500910D3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6C5C140D150224C500910D3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6C5C140F150224C500910D3E /* Ausgabe-Prefix.pch */ = {isa = PBXFileReference; path = "Ausgabe-Prefix.pch"; sourceTree = "<group>"; };
-		6C5C1410150224C500910D3E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C5C140F150224C500910D3E /* Ausgabe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ausgabe-Prefix.pch"; sourceTree = "<group>"; };
+		6C5C1410150224C500910D3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C5C1411150224C500910D3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6C5C1413150224C500910D3E /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		6C5C1413150224C500910D3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6C5C1414150224C500910D3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6C5C1417150224C500910D3E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -273,6 +273,7 @@
 				6C5C141D150224C500910D3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
